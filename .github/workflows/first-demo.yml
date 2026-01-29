@@ -9,6 +9,7 @@ jobs:
       - name: Print
         run: echo "Good bye"
   Second-job:
+    needs: First-job
     runs-on: ubuntu-latest
     steps:
       - name: Print 

@@ -8,4 +8,11 @@ jobs:
         run: echo "Hello world"
       - name: Print
         run: echo "Good bye"
+  Second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print 
+        run: echo "s3"
+      - name: Print
+        run: echo "s2"
       
